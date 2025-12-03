@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 4.28.1
+* Removed Baseline warning since we have it own warning.
+
 ## 4.48.0
 * Added `firefox >= esr` query support (by @SethFalco).
 * Fixed docs (by @SethFalco).

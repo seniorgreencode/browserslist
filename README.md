@@ -254,7 +254,7 @@ You can specify the browser and Node.js versions by queries (case insensitive):
   * `last 2 node major versions`: select 2 latest major-version Node.js releases.
   * `current node`: Node.js version used by Browserslist right now.
   * `maintained node versions`: all Node.js versions, which are [still maintained]
-    by Node.js Foundation.
+    by the OpenJS Foundation and Node.js project.
 * Browsers versions:
   * `iOS 7`: the iOS browser version 7 directly. Note, that `op_mini`
     has special version `all`.

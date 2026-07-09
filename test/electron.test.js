@@ -42,6 +42,10 @@ test('throws on unknown Electron range version', () => {
   throws(() => browserslist('electron 0.37-999'), /Unknown version/)
 })
 
+test('compares Electron range bounds as semver', () => {
+  equal(browserslist('electron 37.9 - 37.10'), ['chrome 138'])
+})
+
 test('converts Electron versions to Chrome', () => {
   equal(browserslist('electron <= 0.21'), ['chrome 41', 'chrome 39'])
 })

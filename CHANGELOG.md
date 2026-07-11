@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 4.28.6
+
+- Fixed Electron version queries (by @spokodev).
+
 ## 4.28.5
 
 - Fixed `>` and `>=` queries (by @spokodev).

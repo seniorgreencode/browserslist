@@ -1,6 +1,6 @@
 let { mkdirSync, mkdtempSync, rmSync, writeFileSync } = require('fs')
-let { join } = require('path')
 let { tmpdir } = require('os')
+let { join } = require('path')
 let { test } = require('uvu')
 let { is, equal, throws } = require('uvu/assert')
 

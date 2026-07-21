@@ -2,6 +2,12 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 4.28.7
+
+- Improved parsing performance.
+- Fixed unbounded memory growth (by @alanturing881).
+- Fixed prototype write issue (by @alanturing881).
+
 ## 4.28.6
 
 - Fixed Electron version queries (by @spokodev).

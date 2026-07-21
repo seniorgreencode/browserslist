@@ -7,7 +7,8 @@ var BrowserslistError = require('./error')
 
 var IS_SECTION = /^\s*\[(.+)]\s*$/
 var CONFIG_PATTERN = /^browserslist-config-/
-var SCOPED_CONFIG__PATTERN = /@[^/]+(?:\/[^/]+)?\/browserslist-config(?:-|$|\/)/
+var SCOPED_CONFIG__PATTERN =
+  /^@[^/]+(?:\/[^/]+)?\/browserslist-config(?:-|$|\/)/
 var FORMAT =
   'Browserslist config should be a string or an array ' +
   'of strings with browser queries'

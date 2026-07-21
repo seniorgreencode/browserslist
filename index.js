@@ -832,7 +832,7 @@ var QUERIES = {
     //   ...with downstream
     //   ...including kaios
     regexp:
-      /^baseline\s+(?:(\d+)|(newly|widely)\s+available(?:\s+on\s+(\d{4}-\d{2}-\d{2}))?)?(\s+with\s+downstream)?(\s+including\s+kaios)?$/i,
+      /^baseline\s+(?!\s)(?:(\d+)|(newly|widely)\s+(?!\s)available(?:\s+(?!\s)on\s+(?!\s)(\d{4}-\d{2}-\d{2}))?)?(\s+(?!\s)with\s+(?!\s)downstream)?(\s+(?!\s)including\s+(?!\s)kaios)?$/i,
     select: function (context, node) {
       var baselineVersions
       var includeDownstream = !!node.downstream

@@ -231,7 +231,7 @@ You can specify the browser and Node.js versions by queries (case insensitive):
   - `baseline widely available on YYYY-MM-DD`: selects browser versions that supported the Widely available feature set on the specified date.
   - `baseline 2022`: selects browser versions that are compatible with all features that were Baseline Newly available at the end of the specified year.
   - `… with downstream`: includes browsers outside the core browser set that support the requested Baseline feature set based on their Chromium or Gecko version. See [`baseline-browser-mapping`](https://github.com/web-platform-dx/baseline-browser-mapping#downstream-browsers).
-  - `… with downstream including kaios`: same output as the previous query plus KaiOS.
+  - `… including kaios`: adds KaiOS, with or without `with downstream`.
 - Last versions:
   - `last 2 versions`: the last 2 versions for _each_ browser.
   - `last 2 Chrome versions`: the last 2 versions of Chrome browser.

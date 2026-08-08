@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 4.28.8
+
+- Fixed `including kaios` in baseline queries (by @Jaybhade).
+
 ## 4.28.7
 
 - Improved parsing performance.

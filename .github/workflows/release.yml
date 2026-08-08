@@ -13,7 +13,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Clean npm package
-        uses: ai/clean-npm-project@29219e611c2da08a07cb0a6a1b965c162e5940a9 # v0.3.0
+        uses: ai/clean-npm-project@3f664d1a83e04a2be737b7ad4e0b5a4e1b7dbc08 # v0.3.1
         with:
           clean-docs: true
       - name: Install Node.js

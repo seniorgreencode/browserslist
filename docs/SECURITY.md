@@ -5,7 +5,7 @@
 Only the latest release is supported.
 
 | Version  | Supported          |
-| ------- -| ------------------ |
+| -------- | ------------------ |
 | 4.28.2   | :white_check_mark: |
 | < 4.28.2 | :x:                |
 
